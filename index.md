@@ -47,3 +47,9 @@ Exemple :
 ### Implémentation des GPIO
 
 Sur le SoC fait par l'université de Cambridge, les leds et les switchs ne sont pas implémentés. Pour permettre un debug
+
+## Ajout Metadata
+
+On ajout des load & store de metadata. Expliquer problématique pour valeur immédiate vs registre. En effet, tant qu'on n'a pas de compilateur, il faut réécrire à la main toutes instruction avec la bonne valeur immédiate. 
+
+Cas du mv en RISCV, rs1 et rs2 différents sur addi et add
